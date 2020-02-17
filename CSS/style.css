@@ -153,6 +153,18 @@ header nav a:hover
 	
 	
 }
+
+@media all and (min-width: 1024px){
+	header nav {
+		display:none;
+	
+	}
+
+
+}
+	
+	
+	
 header nav  {
     padding-left: 30px;
 }
