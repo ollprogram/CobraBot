@@ -125,13 +125,13 @@ header
 	background-color:#2C2F33;
 }
 header img {
-	padding-left : 20px;
+	padding-left : 2%;
 }
 .titre
 {
 	color:#ffffff;
-	padding-right: 30px;
-	padding-left: 10px;
+	padding-right: 3%;
+	padding-left: 1%;
 }
 .methodeShlag {
 	padding-top:100%;
@@ -149,7 +149,7 @@ header nav a:hover
 	
 }
 header nav  {
-    padding-left: 30px;
+    padding-left: 3%;
 }
 
 /* Pied de page */
@@ -162,8 +162,8 @@ footer
 }
 footer .infofooter{/* Pied de page */
 	
-	padding-left: 30px;
-	padding-bottom: 30px;
+	padding-left: 3%;
+	padding-bottom: 3%;
 }
 footer ul {
 	color:#c2c2c2;
@@ -177,7 +177,7 @@ footer ul {
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 1%;
 }
 
 /* Track */
@@ -189,7 +189,7 @@ footer ul {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #39446d;
-  border-radius: 10px;
+  border-radius: 1%;
   box-shadow: 0px 3px 5px black;
   
 }
