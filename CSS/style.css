@@ -151,7 +151,7 @@ header nav a:hover
 
 }
 
-@media all and (max-width: 1024px){
+@media all and (max-width: 1023px){
 	.nav {
 		display:none;
 	
@@ -205,7 +205,21 @@ footer ul {
 }
 
 
+
+
+
+
 /* Scrollbar */
+
+
+@media all and (max-width: 1023px){
+	::-webkit-scrollbar {
+		display:none;
+	
+	}
+
+
+}
 
 ::-webkit-scrollbar {
   width: 1%;
@@ -237,11 +251,19 @@ footer ul {
 
 
 
-
+.menumobile
+{
+	padding-right:3%;
+	font-size:30px;
+	float:right;
+	width:100%;
+	
+}
 
 #menumobile, #menumobile ul{
 float:right;
 padding:0;
+
 margin:0;
 list-style:none;
 text-align:right;
@@ -249,48 +271,43 @@ text-align:right;
 #menumobile li{
 display:inline-block;
 
-margin-right:0%;
-padding-right:30px;
-border-radius:8px 8px 0 0;
+padding-right:3%;
+
+
 text-align:right;
 
 }
 #menumobile ul li{
 display:inherit;
-border-radius:0;
-}
-#menumobile ul li:hover{
-border-radius:0;
+
 }
 
+
 #menumobile ul{
+	
 position:absolute;
 z-index: 1000;
 max-height:0;
 left: 0;
 right: 0;
 overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
+-moz-transition: .5s all .3s;
+-webkit-transition: .5s all .3s;
+transition: .5s all .3s;
 }
 #menumobile li:hover ul{
 max-height:15em;
 }
 /* background des liens menus */
-#menumobile li{
-background-color: #65537A;
-background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
-background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
-}
+
 
 /* background des liens sous menus */
 #menumobile li{
-background:#677F35;
+background:#2C2F33;
 }
 /* background des liens menus et sous menus au survol */
-#menumobile li:hover, #menumobile li li:hover{
-background:#65537A;
+#menumobile li li:hover{
+background:#39446d;
 }
 
 /* les a href */
@@ -301,8 +318,7 @@ background:#65537A;
 	text-align:right;
 	text-decoration:none;
 	display:block;
-	padding-right:60px;
-	padding-left:6px;
+	
 	color:#fff;
 
 }
