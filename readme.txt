@@ -1,0 +1,1 @@
+Ouvrez le fichier home.html, je vous conseille d'utiliser le navigateur chrome pour une experience optimale
