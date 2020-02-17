@@ -189,7 +189,7 @@ footer ul {
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 1%;
 }
 
 /* Track */
@@ -209,4 +209,98 @@ footer ul {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #7289DA;
+  
+  
+  
 }
+
+
+
+
+
+
+
+#menumobile, #menumobile ul{
+right:3%;
+padding:0;
+margin:0;
+list-style:none;
+text-align:right;
+}
+#menumobile li{
+display:inline-block;
+margin-left:85%;
+margin-right:1%;
+padding-right:30px;
+border-radius:8px 8px 0 0;
+text-align:right;
+
+}
+#menumobile ul li{
+display:inherit;
+border-radius:0;
+}
+#menumobile ul li:hover{
+border-radius:0;
+}
+
+#menumobile ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menumobile li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menumobile li{
+background-color: #65537A;
+background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
+background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+}
+
+/* background des liens sous menus */
+#menumobile li{
+background:#677F35;
+}
+/* background des liens menus et sous menus au survol */
+#menumobile li:hover, #menumobile li li:hover{
+background:#65537A;
+}
+
+/* les a href */
+
+#menumobile a{
+	width:120px;
+	text-align:right;
+	text-decoration:none;
+	display:block;
+	padding-right:60px;
+	padding-left:6px;
+	color:#fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
