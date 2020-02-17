@@ -151,8 +151,8 @@ header nav a:hover
 
 }
 
-@media all and (min-width: 1024px){
-	header nav {
+@media all and (max-width: 1024px){
+	.nav {
 		display:none;
 	
 	}
@@ -162,8 +162,8 @@ header nav a:hover
 
 
 
-@media all and (max-width: 1024px){
-	#menumobile {
+@media all and (min-width: 1024px){
+	.menumobile {
 		display:none;
 	
 	}
