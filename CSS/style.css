@@ -295,7 +295,7 @@ overflow:hidden;
 -webkit-transition: .5s all .3s;
 transition: .5s all .3s;
 }
-#menumobile li	:focus ul{
+#menumobile li:hover ul{
 max-height:15em;
 }
 /* background des liens menus */
@@ -306,7 +306,7 @@ max-height:15em;
 background:#2C2F33;
 }
 /* background des liens menus et sous menus au survol */
-#menumobile li li :focus{
+#menumobile li li:hover{
 background:#39446d;
 }
 
