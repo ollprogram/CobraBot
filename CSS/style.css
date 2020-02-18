@@ -7,7 +7,7 @@ html,body {
     height: 100%;
     overflow-x: hidden;
 	text-align:center;
-	
+	scroll-behavior: smooth;
 }
 
 /* Premiere partie */
@@ -295,7 +295,7 @@ overflow:hidden;
 -webkit-transition: .5s all .3s;
 transition: .5s all .3s;
 }
-#menumobile li:hover ul{
+#menumobile li:click ul{
 max-height:15em;
 }
 /* background des liens menus */
