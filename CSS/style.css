@@ -295,7 +295,7 @@ overflow:hidden;
 -webkit-transition: .5s all .3s;
 transition: .5s all .3s;
 }
-#menumobile li:click ul{
+#menumobile li:hover ul{
 max-height:15em;
 }
 /* background des liens menus */
