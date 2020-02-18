@@ -145,7 +145,7 @@ header img {
 /*------------------------------Menu normal-----------------------------*/
 
 
-@media all and (max-width: 1023px){  /*Le menu ne s'affiche que pour les ecrans de pc*/
+@media all and (max-width: 839px){  /*Le menu ne s'affiche que pour les ecrans de pc*/
 	.nav {
 		display:none;
 	}
@@ -155,9 +155,11 @@ header img {
 header nav a:hover {      /*Les textes du menu changent lorsque la souris passe dessus*/
 	cursor: pointer;
 	color:white;
+	transition: .3s all .3s;
 }
 	
-header nav  {
+header nav a  {
+	font-size:20px;
     padding-left: 30px;
 }
 
@@ -201,7 +203,7 @@ footer ul {
 /* ---------------------Scrollbar-------------------------------- */
 
 
-@media all and (max-width: 1023px){  /*Suppression du scrollbar sur les tablettes et mobiles*/
+@media all and (max-width: 839px){  /*Suppression du scrollbar sur les tablettes et mobiles*/
 	::-webkit-scrollbar {
 		display:none;
 	}
@@ -235,7 +237,7 @@ footer ul {
 /*----------------------------------Menu Deroulant-------------------------------------*/
 
 
-@media all and (min-width: 1024px){ /*le menu ne s'affiche que pour les tablettes et mobiles*/
+@media all and (min-width: 840px){ /*le menu ne s'affiche que pour les tablettes et mobiles*/
 	.menumobile {
 		display:none;
 	}
