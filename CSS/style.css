@@ -91,7 +91,7 @@ html,body {
 }
 .second-section h1 {
     margin:0;
-    padding:150px 0 0 0;
+    padding:15% 0 0 0;
     color: #ffffff;
     font-size: 40px;
     text-align: center;
@@ -110,7 +110,7 @@ html,body {
 
 .third-section h1 {
     margin:0;
-    padding:150px 0 0 0;
+    padding:15% 0 0 0;
     color: #ffffff;
     font-size: 40px;
     text-align: center;
@@ -118,6 +118,24 @@ html,body {
 
 
 /*-------------------------Titre et logo------------------------------- */
+
+
+@media all and (max-width: 839px){  /*Le menu ne s'affiche que pour les ecrans de pc*/
+	header {
+	position:absolute;
+	z-index: 1000;
+	
+	left: 0;
+	right: 0;
+	}
+	.bordureheader{
+		margin-top:60px;
+	}
+}
+
+
+
+
 
 
 header
