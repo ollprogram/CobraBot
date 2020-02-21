@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,7 +79,7 @@
      id="namedview24"
      showgrid="false"
      inkscape:zoom="5.6568543"
-     inkscape:cx="66.480644"
+     inkscape:cx="37.754431"
      inkscape:cy="30.229627"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -125,20 +125,4 @@
      d="m 68.893726,17.500134 c 0,-15.5898048 0.08839,-21.9674771 0.19387,-14.1725345 0.107985,7.7949155 0.107985,20.5502025 0,28.3451185 -0.108192,7.794916 -0.19387,1.417385 -0.19387,-14.172584 z"
      id="path4552"
      inkscape:connector-curvature="0" />
-  <path
-     style="fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 60.875,12.25 c 1.108496,0.754721 5.025163,3.421387 5.875,4"
-     id="path4624"
-     inkscape:connector-curvature="0"
-     inkscape:path-effect="#path-effect4626"
-     inkscape:original-d="m 60.875,12.25 5.875,4"
-     transform="translate(2.8125,-0.7632)" />
-  <path
-     inkscape:original-d="m 60.875,12.25 5.875,4"
-     inkscape:path-effect="#path-effect4630"
-     inkscape:connector-curvature="0"
-     id="path4628"
-     d="m 60.875,12.25 c 1.108496,0.754721 5.025163,3.421387 5.875,4"
-     style="fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     transform="matrix(-1,0,0,1,135.75,-0.7632)" />
 </svg>
