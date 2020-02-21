@@ -129,7 +129,7 @@ html,body {
 	right: 0;
 	}
 	.bordureheader{
-		margin-top:53px;
+		margin-top:60px;
 	}
 }
 
@@ -213,8 +213,27 @@ footer ul {
 
 
 .languette{
-	float:center;
-	margin-top:-2px;
+	z-index:1;
+	position:absolute;
+	margin-left:-100px;
+	margin-top:-1px;
+}
+/*----------------------------fleches pour descendre-------------------------------------*/
+.godown {
+	z-index:2;
+	position:absolute;
+	margin-top:10px;
+	margin-left:-13px;	
+	transition:all 0.3s linear;
+	top:0px;
+	
+}
+
+#third-section :hover  { /*animation des petites fleches*/
+	margin-top:15px;
+}
+#second-section :hover  {
+	margin-top:15px;
 }
 
 
