@@ -129,7 +129,7 @@ html,body {
 	right: 0;
 	}
 	.bordureheader{
-		margin-top:52px;
+		margin-top:50px;
 	}
 }
 
@@ -235,6 +235,30 @@ footer ul {
 #second-section :hover  {
 	margin-top:15px;
 }
+
+
+
+.GoUp {
+	position:fixed;				
+	right:20px;
+	padding:10px 5px 5px 5px;
+	bottom:20px;
+	display: block;
+    background-color: #7289DA;
+    border: 5px solid #7289DA;
+    border-radius: 10px;
+    transition: 0.5s all;
+	box-shadow:0 0 5px black;
+	
+}
+.test :hover, .test img {
+	transform:rotate(360deg);
+	border-radius: 50px;
+	background-color:transparent;
+}
+
+
+
 
 
 /* ---------------------Scrollbar-------------------------------- */
