@@ -77,7 +77,7 @@ html,body {
 
 .start button:hover {
 	cursor: pointer;
-	background-color:#8ea0e1;
+	background-color:#5a6dad;
 	
 	
 }
@@ -355,14 +355,14 @@ footer ul {
 }
 
 ::-webkit-scrollbar-thumb {  /* bloc pour monter et descendre */
-	background: #39446d;
+	background: #30395c;
 	border-radius: 10px;
 	box-shadow: 0px 3px 5px black;
   
 }
 
 ::-webkit-scrollbar-thumb:hover {  /*bloc pour monter et descendre lorsque la souris passe dessus  */
-	background: #7289DA;
+	background: #5a6dad;
   
   
   
