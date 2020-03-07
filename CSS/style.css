@@ -9,6 +9,9 @@ html,body {
 	text-align:center;
 	scroll-behavior: smooth;
 }
+body {
+	position:relative;
+}
 /*------------------------------------Flip the phone----------------------------*/
 
 @media all and (max-height: 419px){
