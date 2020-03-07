@@ -12,6 +12,9 @@ html,body {
 /*------------------------------------Flip the phone----------------------------*/
 
 @media all and (max-height: 419px){
+	body {
+		overflow-y: hidden;
+	}
 	#top {
 		display:none;
 	}
@@ -28,21 +31,40 @@ html,body {
 		display:none;
 	}
 	.FlipPhone {
+		background-color:#2C2F33;
 		width: 100%;
-	height: 1%;
-	overflow: visible;
-	z-index:1000;
-	margin:0 auto;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
+		height: 100%;
+		overflow: visible;
+		z-index:1000;
+		margin:0 auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
 	}
 	.FlipPhone h1 {
+		color:#7289DA;
 		text-align: center;
-		top:50%;
-		margin:25%;
+		margin:  auto;
+		position: absolute;
+		top: 45%; left: 0; bottom: 0; right: 0;
+		
 		
 	}
-
+	.Phone {
+		padding:0 5% 0 5% ;
+		animation-name: rotate;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		margin:  auto;
+		position: absolute;
+		top: 8%; left: 50%; bottom: 0; right: 0;
+		
+		
+		
+	}
+	::-webkit-scrollbar {
+		display:none;
+	}
 }
 
 @media all and (min-height: 420px){
@@ -50,7 +72,11 @@ html,body {
 		display:none;
 	}
 }
-
+@keyframes rotate {
+    from 	{ transform: rotate(90deg); }
+	75%		{ transform: rotate(0); }    
+    to   	{ transform: rotate(0); }    
+}
 
 /*------------------------------------Premiere partie--------------------------- */
 @media all and (max-width: 839px){
@@ -420,8 +446,8 @@ footer ul {
 
 
 @media all and (max-width: 839px){  /*Suppression du scrollbar sur les tablettes et mobiles*/
-	::-webkit-scrollbar {
-		display:none;
+	body{
+	overflow-y: hidden;
 	}
 }
 
