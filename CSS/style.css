@@ -5,7 +5,7 @@ html,body {
     padding: 0;
     width: 100%;
     height: 100%;
-    
+    overflow-x:hidden;
 	text-align:center;
 	scroll-behavior: smooth;
 }
@@ -446,8 +446,8 @@ footer ul {
 
 
 @media all and (max-width: 839px){  /*Suppression du scrollbar sur les tablettes et mobiles*/
-	body{
-	overflow-y: hidden;
+	::-webkit-scrollbar {
+		display:none;
 	}
 }
 
