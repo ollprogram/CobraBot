@@ -9,12 +9,67 @@ html,body {
 	text-align:center;
 	scroll-behavior: smooth;
 }
+/*------------------------------------Flip the phone----------------------------*/
+
+@media all and (max-height: 839px){
+	#top {
+		display:none;
+	}
+	.section1 {
+		display:none;
+	}
+	.section2 {
+		display:none;
+	}
+	.section3 {
+		display:none;
+	}
+	footer {
+		display:none;
+	}
+	.FlipPhone {
+		width: 100%;
+	height: 1%;
+	overflow: visible;
+	z-index:1000;
+	margin:0 auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	}
+	.FlipPhone h1 {
+		text-align: center;
+		top:50%;
+		margin:25%;
+		
+	}
+
+}
+
+@media all and (min-height: 840px){
+	.FlipPhone {
+		display:none;
+	}
+}
+
 
 /*------------------------------------Premiere partie--------------------------- */
+@media all and (max-width: 839px){
+	.section1 h1 {
+		font-size: 50px;
+		text-align: center;
+		margin:0;
+		padding-top:10px;
+		color: #ffffff;
+	}
+	.section1 h2 {
+		
+		font-size: 40px;
+	}
+	
+}
 
 
 .section1 {
-	
 	background:#39446d ;
 	width: 100%;
     height: 100%;
@@ -23,15 +78,18 @@ html,body {
 	
 }
 
-.section1 h1 {
-    margin:0;
-    padding-top:10px;
-    color: #ffffff;
-    font-size: 6vw;
-    text-align: center;
-}
-.section1 h2 {
-	font-size:5vw;
+@media all and (min-width: 840px){
+	.section1 h1 {
+		margin:0;
+		padding-top:10px;
+		color: #ffffff;
+		font-size: 70px;
+		text-align: center;
+	}
+	.section1 h2 {
+		font-size:50px;
+	}
+
 }
 
 .bloc11stsection{         	/*Textes et boutons centres au dessus de l'image*/
