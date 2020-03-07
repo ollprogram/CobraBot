@@ -262,6 +262,7 @@ header
 }
 
 .tetecobra {
+	z-index:1020;
 	border: 5px solid #39446d;
 	border-radius: 50px;
 	margin-right:1%;
