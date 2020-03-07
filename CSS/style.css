@@ -11,7 +11,7 @@ html,body {
 }
 /*------------------------------------Flip the phone----------------------------*/
 
-@media all and (max-height: 839px){
+@media all and (max-height: 229px){
 	#top {
 		display:none;
 	}
@@ -45,7 +45,7 @@ html,body {
 
 }
 
-@media all and (min-height: 840px){
+@media all and (min-height: 230px){
 	.FlipPhone {
 		display:none;
 	}
