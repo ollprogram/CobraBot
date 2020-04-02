@@ -27,6 +27,9 @@ body {
 	.section2 {
 		display:none;
 	}
+	.section2_2{
+		display: none;
+	}
 	.section3 {
 		display:none;
 	}
@@ -102,7 +105,7 @@ body {
 	background:#39446d ;
 	width: 100%;
     height: 100%;
-	position : relative ;
+	position : static;
 	z-index : 1;
 	
 }
@@ -311,6 +314,9 @@ header nav a:hover {      /*Les textes du menu changent lorsque la souris passe 
 header nav a  {
 	font-size:1.5em;
     padding-left: 30px;
+	text-decoration: none;
+	color: #C2C2C2
+	
 }
 
 
@@ -320,17 +326,21 @@ header nav a  {
 footer {
 	color:#ffffff;
 	text-align:left;
+	position: absolute;
 	background-color:#2C2F33;
+	z-index : 5;
 }
 
 footer .infofooter {     /* Toutes les infos se trouvant dans le footer */
 	
 	padding-left: 30px;
 	padding-bottom: 30px;
+	z-index : 5;
 }
 
 footer ul {
 	color:#c2c2c2;
+	z-index : 5;
 }
 
 
@@ -338,6 +348,7 @@ footer ul {
 	float:left;
 	margin-top:-2px;
 	margin-left:-100px;
+	z-index : 5;
 }
 
 
@@ -346,22 +357,21 @@ footer ul {
 
 .languette{
 	z-index:1;
-	position:absolute;
-	margin-left:-100px;
-	margin-top:-1px;
+    left:-50px;
+	margin-top: -2px;
 }
 /*----------------------------fleches pour descendre-------------------------------------*/
 .godown {
-	z-index:2;
+	z-index:1;
 	position:absolute;
-	margin-top:10px;
-	margin-left:-13px;	
+	margin-bottom: 2%;
+	margin-top: 1;
+	margin-left: -113px;
 	transition:all 0.3s linear;
 	animation-name: floating;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-	top:0px;
 	
 }
 
@@ -558,17 +568,162 @@ footer ul {
 	display:block;
 	color:#fff;
 }
+/* spécifique page 2 */
+#titrepage2{
+	font-size:30px;
+	text-align: center;
+	padding-top:2%;
+	overflow:visible;
+	z-index:3;
+	
+}
+.txt_sect1_2{
+	text-align:left;
+	font-size:20px;
+	margin-top:2%;
+	margin-left:15%;
+	margin-right:15%;
+	background-color:#2C2F33;
+	padding:1%;
+	box-shadow: 10px 10px 5px #000000;
+	overflow:none;
+	z-index:3;
+	position:relative;
+	border-radius: 10px;
+}
+.txt_sect2_2{
+	text-align:left;
+	font-size:20px;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:2%;
+	background-color:#2C2F33;
+	padding:1%;
+	box-shadow: 10px 10px 5px #000000;
+	overflow:none;
+	z-index:3;
+	position: relative;
+	border-radius: 10px;
+}
+.titrepage2_2{
+	margin-top:auto;
+	padding-top: 10%;
+    position:relative;
+    z-index:3;
+	
+}
+.titrepage2_2 h2{
+	font-size:35px;
+	text-align:center;
+    z-index:3;
+	
+}
+.section2_2{
+	background: #42305c;
+	width: 100%;
+    height: 100%;
+	position : static;
+	z-index : 1;
+	
+}
+/*-----------------------les formes qui flottent-2-------------------*/
 
 
+.PSC{
+	position:absolute;
+	animation-name: floating;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    padding-left: 10%;
+    padding-top: 200px;
+    right:0;
+	z-index : 2;
+}
 
+.PSX{
+	position:absolute;
+	left:0;
+    padding-left: 3%;
+    padding-top:600px;
+	animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+	z-index : 2;
+}
 
+.PST{
+	position:absolute;
+	animation-name: floating;
+    animation-duration: 4.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+	padding-top:10%;
+    left:0;
+    padding-left: 10%;
+	z-index : 2;
+}
 
+.PSS{
+	position:absolute;
+	animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    padding-right: 5%;
+    padding-top: 500px;
+    right: 0;
+	z-index : 2;
+}
 
+.PSX2{
+	position:absolute;
+	animation-name: floating;
+    animation-duration: 4.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    padding-top: 860px;
+	z-index : 2;
+}
 
-
-
-
-
+.PST2{
+	position:absolute;
+	animation-name: floating;
+    animation-duration: 3.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    padding-top:730px;
+    padding-left:11%;
+    left:0;
+	z-index: 2;
+}
+/*bouttons page 2*/
+.start2{
+    width: 200px; margin : auto auto 5px auto;
+}
+.start2 button {
+	position : relative;
+	color:#ffffff;
+    display: block;
+    font-size: 20px;
+    background-color: #7289DA;
+    border: 0px solid #7289DA;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    transition: 0.5s all;
+	box-shadow: 4px -1px 0px black;
+}
+.start2 img {
+	padding-right: 4%;	
+}
+.start2 button:hover {
+	cursor: pointer;
+	background-color:#5a6dad;	
+}
 
 
 
